@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    background-color: rgb(250, 230, 236);
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+    width: 30%;
+    align-items: center;
+    float: right;
+    background-color: rgb(205, 247, 255);
+    background-attachment: fixed;
+}
+.cont-dos{
+    display: flex;
+    width: 70%;
+    height: auto;
+    background-color: #e6e5ff;
+
+}
+.cont-tres{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+    width: 30%;
+    align-items: center;
+    text-align: left;
+    height: 280px;
+    padding-bottom: 3px !important;
+    width: 95%;
+    margin-left: 8px;
+    -webkit-box-shadow: -7px -7px 10px #0180db94;
+    box-shadow: 10px -10px 10px #0180db94;
+    border-bottom-color:#db01ac ;
+    border-top-color: #db01ac;
+    border-right-color: #db01ac;
+    border-left-color: #db01ac;
+    border-radius: 8px;
+    background-color: rgb(224, 223, 255);
+}
+
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+}
+section {
+    flex-grow: 1;
+    flex-basis: 200;
+    padding: 2rem 9%;
+}
+ p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #d5f6fd;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgba(70, 102, 167, 0.571);
+    font-weight: bolder;
+}
+header .navbar a{
+    font-size: 15px;
+    color: #ddd9ff;
+    text-align: right;
+}
+footer {
+    background: #ffe5f7;
+    padding: 60px 0;
+    width: 100%;
+    overflow: hidden; 
+}
+
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9c67e5;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #9c67e5;
+}
+h4{
+    color: #d8d5fd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

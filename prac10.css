@@ -1,0 +1,17 @@
+body{background-color: rgba(0, 0, 0, 0.509);}
+.acuario{color: yellow;}
+.tauro{color: pink;}
+.geminis{color: aquamarine;} 
+.cancer{color: red;} 
+.leo{color: orange;} 
+.virgo{color: blue;}
+.libra{color: rgba(0, 0, 255, 0.482);} 
+.escorpio{color: rgb(255, 89, 0);} 
+.sagitario {color: green;}
+.capricornio{color: purple;} 
+.aries{color: aqua;}
+.piscis{color: rgb(255, 192, 230);} 
+.a{color: antiquewhite;}
+h1{color: rgba(130, 197, 81, 0.826);}
+.img1 {  width:100; height:100;}
+img{ width: auto; height: min-content;}
